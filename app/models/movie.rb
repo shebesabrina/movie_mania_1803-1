@@ -11,4 +11,6 @@ class Movie < ApplicationRecord
   def generate_slug
     self.slug = title.parameterize
   end
+
+  # enum rating:[1, 2, 3, 4, 5]
 end

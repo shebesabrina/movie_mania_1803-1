@@ -8,7 +8,7 @@ describe 'instance methods' do
     MovieGenre.create!(genre: genre, movie: movie_1)
     MovieGenre.create!(genre: genre, movie: movie_2)
     MovieGenre.create!(genre: genre, movie: movie_3)
-    
+
     expect(genre.average_rating).to eq(3)
   end
 end

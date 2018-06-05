@@ -549,6 +549,8 @@
         1,
         null,
         1,
+        null,
+        1,
         1,
         1,
         1,
@@ -783,6 +785,21 @@
         1,
         null,
         null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
         null
       ],
       "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/models/movie.rb": [
@@ -798,6 +815,8 @@
         null,
         1,
         20,
+        null,
+        null,
         null,
         null
       ],
@@ -867,7 +886,7 @@
         1,
         null,
         1,
-        1,
+        2,
         null,
         null
       ],
@@ -1073,6 +1092,6 @@
         null
       ]
     },
-    "timestamp": 1528216365
+    "timestamp": 1528217737
   }
 }
