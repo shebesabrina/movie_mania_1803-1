@@ -750,6 +750,22 @@
         1,
         null
       ],
+      "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/spec/models/genre_spec.rb": [
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
       "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/spec/models/movie_spec.rb": [
         1,
         null,
@@ -781,7 +797,7 @@
         1,
         null,
         1,
-        17,
+        20,
         null,
         null
       ],
@@ -849,6 +865,10 @@
         1,
         1,
         1,
+        null,
+        1,
+        1,
+        null,
         null
       ],
       "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/controllers/admin/genres_controller.rb": [
@@ -1053,6 +1073,6 @@
         null
       ]
     },
-    "timestamp": 1528216082
+    "timestamp": 1528216365
   }
 }
