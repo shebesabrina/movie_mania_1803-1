@@ -197,6 +197,7 @@
         null,
         1,
         1,
+        1,
         null,
         null,
         1,
@@ -204,6 +205,36 @@
       ],
       "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/helpers/application_helper.rb": [
         1,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/spec/features/admin_sees_categories_index_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        1,
+        1,
+        1,
+        null,
+        1,
+        null,
+        1,
+        null,
+        1,
+        1,
+        null,
+        null,
         null
       ],
       "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/spec/features/user_can_add_movies_to_cart_spec.rb": [
@@ -558,11 +589,11 @@
         1,
         null,
         1,
-        48,
+        49,
         null,
         null,
         1,
-        35,
+        36,
         null,
         null,
         1,
@@ -622,6 +653,9 @@
         1,
         null,
         1,
+        1,
+        null,
+        1,
         null,
         1,
         13,
@@ -665,6 +699,12 @@
         1,
         null
       ],
+      "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/models/genre.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
       "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/controllers/application_controller.rb": [
         1,
         1,
@@ -673,7 +713,7 @@
         1,
         null,
         1,
-        45,
+        46,
         null,
         null,
         1,
@@ -684,11 +724,13 @@
         null,
         null,
         1,
-        2,
+        3,
         null,
         null
       ],
-      "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/controllers/admin/categories_controller.rb": [
+      "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/controllers/admin/genres_controller.rb": [
+        1,
+        null,
         1,
         1,
         null,
@@ -701,7 +743,13 @@
         1,
         null,
         1,
-        2,
+        3,
+        null,
+        null
+      ],
+      "/Users/sabrinarobinson/Turing/2mod/final/movie_mania_1803-1/app/controllers/admin/categories_controller.rb": [
+        1,
+        1,
         null,
         null
       ],
@@ -852,6 +900,6 @@
         null
       ]
     },
-    "timestamp": 1528211054
+    "timestamp": 1528212320
   }
 }
