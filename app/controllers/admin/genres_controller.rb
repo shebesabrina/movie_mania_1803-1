@@ -7,7 +7,7 @@ class Admin::GenresController < Admin::BaseController
   def create
     Genre.create(genre_params)
 
-    redirect_to admin_genres_path
+    redirect_to genres_path
   end
 
   private
