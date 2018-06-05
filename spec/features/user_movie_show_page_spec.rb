@@ -19,4 +19,16 @@ describe 'User Genre show page' do
     expect(page).to have_content(genre_1.name)
     expect(page).to have_content(genre_2.name)
   end
+
+  it 'displays the rating' do
+    user = User.create(username: "Ian", password: "password123", role: 0)
+
+    allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(user)
+    director = Director.create(name: 'George Lucas')
+    movie = director.movies.create!(title:'Star Wars Episode 4', description: 'A New Hope', rating: 5)
+
+    visit movie_path(movie.slug)
+
+    expect(page).to have_content(movie.rating)
+  end
 end
