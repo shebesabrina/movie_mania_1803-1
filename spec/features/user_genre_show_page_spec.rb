@@ -14,7 +14,6 @@ describe 'User Genre show page' do
     type_2 = MovieGenre.create!(genre: genre, movie: movie_2)
 
     visit genre_path(genre)
-
     expect(page).to have_content(movie_1.title)
     expect(page).to have_content(movie_1.description)
     expect(page).to have_content(movie_2.title)
