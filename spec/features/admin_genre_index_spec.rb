@@ -8,8 +8,8 @@ describe 'admin index for geres' do
     genre_1 = Genre.create(name: 'Sci-Fi')
     genre_2 = Genre.create(name: 'Action')
     genre_3 = Genre.create(name: 'Adventure')
-    
-    visit admin_genres_path
+
+    visit genres_path
 
     expect(page).to have_content(genre_1.name)
     expect(page).to have_content(genre_2.name)

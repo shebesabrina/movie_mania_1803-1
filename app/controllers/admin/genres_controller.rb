@@ -1,12 +1,10 @@
 class Admin::GenresController < Admin::BaseController
 
-  def index
-    @genres = Genre.all
-  end
 
   def create
-    Genre.create(genre_params)
-
+    # binding.pry
+    Genre.create!(genre_params)
+# binding.pry
     redirect_to genres_path
   end
 

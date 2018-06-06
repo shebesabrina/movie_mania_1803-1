@@ -7,13 +7,13 @@ describe 'admin index for geres' do
     allow_any_instance_of(ApplicationController).to receive(:current_user).and_return(admin)
     genre_1 = Genre.create(name: 'Sci-Fi')
 
-    visit admin_genres_path
+    visit genres_path
 
-    fill_in 'genre[name]', with: genre_1.name
+    fill_in :genre_name, with: genre_1.name
+    click_on 'Create Genre'
 
-    click_on 'Save Genre'
-
-    expect(page).to have_content(genre_1.name)
     expect(current_path).to eq(genres_path)
+    # save_and_open_page
+    expect(page).to have_content(genre_1.name)
   end
 end
